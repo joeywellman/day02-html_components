@@ -1,0 +1,28 @@
+.representative-article {
+    color: black;
+}
+
+.representative-article_header {
+    color: black;
+    font-size: 16pt;
+}
+
+.representative-article_basics {
+    color: rgb(255, 0, 0);
+    font-size: 14pt;
+}
+
+.representative-article_basics--elements {
+    color: rgba(255, 0, 0, 0.685);
+    font-size: 12pt;
+}
+
+.representative-article_basics--committees {
+    color: navy;
+    font-size: 12pt;
+}
+
+.representative-article_basics--legislation {
+    color: blue;
+    font-size: 12pt;
+}

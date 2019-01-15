@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WV 3rd Congressional District Representative</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- 
+    
+Practice
+
+You're going to create an HTML component to represent a political candidate. 
+Specifically, the representative of your Congressional district. 
+Visit the GovTrack site link below, enter in your home address, and you'll find basic information about your representative.
+
+GovTrack - Congressional District Map
+
+In your HTML, create an article tag that will serve as your main representative component. 
+Give the element a unique identifier.
+In this component, create a sub-component for basic information using the section tag. 
+In this section create elements for the representative's image, name, district info, and political affiliation.
+Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on.
+The last component will hold links to any legislation that your representative has enacted.
+Make sure you use good BEM-style class names for each element in your components. 
+Put a comment above each component explaining what it is. -->
+
+<!-- Main Representative Component -->
+<article class="representative-article">
+        <header class="representative-article_header">
+                <h1>West Virginia’s 3rd Congressional District Representative</h1>
+            </header>
+
+        <!-- Main Representative Sub-Component for Basic Information -->
+        <section class="representative-article_basics">
+                <h2>Basic Information</h2>
+            </header>
+        </section>
+
+        <!-- Main Representative's Elements
+        (image, name, district info, and political affiliation) -->
+        <section class="representative-article_basics--elements">
+                <ul><img src="https://s3.amazonaws.com/ballotpedia-api/storage/uploads/thumbs/200/300/crop/best/Miller_carol.jpg" alt="Carol Miller"></ul>
+                <ul><b>Name:</b>
+                    <P>Carol Miller</P></ul>
+                <ul><b>District Information:</b> 
+                    <P>West Virginia's 3rd Congressional District is located in the southern portion of the state and includes Boone, Cabell, Fayette, Greenbrier, Lincoln, Logan, Mason, McDowell, Mercer, Mingo, Monroe, Nicholas, Pocahontas, Raleigh, Summers, Wayne, Webster, and Wyoming counties.</P>
+                </ul>
+                <ul><b>Political Affiliation:</b>
+                    <P>Republican</P>
+                </ul>
+            </section>
+
+        <!-- Main Representative Sub-Component for Committees Candidate is Serving On -->
+        <section class="representative-article_basics--committees">
+            <h3><b>Committees</b></h3>
+            </header>
+            At the beginning of the 2017 legislative session, this legislator served on the following committees:
+            <ul>- Agriculture and Natural Resources</ul>
+            <ul>- Finance</ul>
+            <ul>- Rules</ul>
+            <ul>- Small Business, Entrepreneurship, and Economic Development</ul>
+                    </section>
+
+        <!-- Main Representative Sub-Component for Legislation Representative Enacted -->
+        <section class="representative-article_basics--legislation">
+        <h3><b>Links to Legislation Sponsored (2019)</b></h3>
+        </header>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1014007">- WV HB2397</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1013999">- WV HB2382</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1013849">- WV HB2362</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1012471">- WV HB2321</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1012283">- WV HB2336</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1007364">- WV HB2199</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1007348">- WV HB2041</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1007222">- WV HB2165</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1007058">- WV HB2066</a></ul>
+        <ul><a href="https://www.billtrack50.com/BillDetail/1007036">- WV HB2173</a></ul>
+        </section>
+</article>
+</body>
+</html>
